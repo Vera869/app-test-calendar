@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { HeaderBox } from "../components/HeaderBox";
-import { MenuBox } from "../components/MenuBox";
+import { MenuBox } from "../components/menu/MenuBox";
 
 export const LayoutPage = () => {
   return (
