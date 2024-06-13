@@ -1,4 +1,7 @@
-@import './fonts.scss';
+@font-face {
+   font-family: circeRounded;
+   src: url(../../src/assets/fonts/CirceRounded-Regular.otf);
+}
 
 * {
    margin: 0;
@@ -6,12 +9,11 @@
 }
 
 :root {
-   padding: 20px;
-   font-family: CirceRounded;
+   font-family: circeRounded;
    font-weight: 400;
 
    width: 100%;
    height: 100%;
-
-   //background-color: rebeccapurple;
+   background: #FDFDFF;
+   // background-color: rebeccapurple; 
  }
