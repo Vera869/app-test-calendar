@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { LayoutPage } from "./pages/layoutPage";
-import { PropileBox } from "./pages/ProfilePage"
+import { PropfileBox } from "./pages/ProfilePage"
 import { ScheduleBox } from "./pages/SchedulePage";
 import { SignInBox } from "./pages/SignInPage";
 
@@ -11,7 +11,7 @@ export const AppRoutes = () => {
 
       <Route path="/" element={<LayoutPage />}>
         <Route path="/" element={<ScheduleBox />}/>
-        <Route path="/profile" element={<PropileBox />}/>
+        <Route path="/profile" element={<PropfileBox />}/>
       </Route>
      
     </Routes>);
