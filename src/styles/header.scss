@@ -1,14 +1,19 @@
+.header-box{
+   display: flex;
+   flex-direction: column;
+}
 .header {
-   width: 1154px;
+   width: 1072px;
    height: 48px;
-   border: 1px 0px 0px 0px;
    background: #FDFDFF;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   align-items: center;
-   margin-left: 286px;
-   padding: 22px 0 0 32px; 
+   // align-items: center;
+   position: fixed;
+   left: 286px;
+   padding-left: 32px; 
+
 .header-span {
    font-size: 24px;
    font-weight: 400;
@@ -16,22 +21,27 @@
    text-align: left;
    color: #7362BC;
 }
-.header-head {
+   .header-head {
    width: 300px;
-   height: 24px;
+   //height: 24px;
    font-size: 24px;
    font-weight: 400;
    line-height: 24px;
+   position: relative;
    text-align: left;
    color: #323854;
+   top: 21px;
+   // margin-bottom: 2px;
 }
 .header-img {
    width: 122px;
    height: 42px;
+   position: relative;
    display: flex;
    flex-direction: row;
+   align-items: center;
    gap: 16px;
-   
+   margin: 12px 0 12px 0;
 }
 .img-chat {
    width: 42px;
@@ -56,11 +66,12 @@
 .header-shadow {
    width: 1154px;
    height: 20px;
+   position: relative;
    top: 48px;
-   margin-left: 286px;
+   left: 286px;
    border-radius: 0px 0px 20px 20px;
    border: 0px 0px 1px 0px;
-   background: #FDFDFF;
+   background: transparent #FDFDFF;
    border-bottom: 1px solid #F6F6FE;
    box-shadow: 0px 2px 4px 0px #8F8FB712,
     0px 7px 7px 0px #8F8FB70F,
